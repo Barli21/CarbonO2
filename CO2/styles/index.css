@@ -9,7 +9,7 @@ header {
 height: 80px;
 width: 100%;
 float: left;
-background-color: rgba(0, 101, 151, 0.2);
+background-color: rgb(186, 233, 245);
 position: fixed;
 top: 0;
 
@@ -25,6 +25,7 @@ z-index: 10;
 .tubes{
   height: 80px;
   opacity: 0.8;
+  margin-left: 20px;
 }
 
 #header-menu {
@@ -51,9 +52,7 @@ text-align: center;
 
 
 .login:hover {
-  background-color: #66b9f0;
-  
-  
+background-color: #00a8ff;
 }
 
 .login:active {
@@ -73,6 +72,12 @@ text-align: center;
   margin-top: 500px;
   display: flex;
   justify-content: center;
+  background-color: rgb(186, 233, 245);
+  height: 600px;
+}
+
+.outset {
+  border-style: outset;
 }
 
 .heading-title {
@@ -115,12 +120,15 @@ font-size: 100;
   float:left;
   padding-right: 50px;
   font-weight: bold;
+
 }
 
 #content {
+position: relative;
+margin-top: 100px;
 margin-left: 50px;
 position: relative;
-background-color: white;
+background-color: rgb(186, 214, 245);
 }
 
 
@@ -141,6 +149,8 @@ background-color: white;
   margin: 0px auto;
   justify-items: center;
   align-items: center;
+  background-color: rgb(147, 173, 245);
+  margin-top: 100px;
 }
 
 .title h2 {
@@ -276,23 +286,20 @@ background-color: white;
 
 body {
   font-family: Cambria;
-  linear-gradient(
-90deg
-,#F6F8FD 29px,transparent 1%) center,linear-gradient(#F6F8FD 29px,transparent 1%) center,#bfc5d3;
-}
+  background-color: rgb(186, 214, 245);
+  }
 li {
   list-style: none;
 }
 
 .periodictable {
   text-align: center;
+  margin-top: 300px;
 }
 
 span {
-  font-family: 'Modulus';
+  font-family: "Modulus";
 }
-
-
 
 .footer {
   background-color: #0097e6;
@@ -315,13 +322,12 @@ span {
 .footer-list li {
   padding-bottom: 20px;
 }
-#h3highlight{
-  background-color: whitesmoke;
-  font-family: cursive;
+#h3highlight {
+  font-family: "cursive";
 }
 
-#highlightp{
+#highlight p {
   font-family: monospace;
-  background-color: floralwhite;
-  }
+  color: aqua;
+}
 
